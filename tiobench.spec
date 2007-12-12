@@ -1,6 +1,6 @@
 %define name tiobench
 %define version 0.3.3
-%define release 1mdk
+%define release %mkrel 1
 
 Summary: A test program for filesystem performance.
 Name: %{name}
