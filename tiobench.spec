@@ -2,7 +2,7 @@
 %define version 0.3.3
 %define release %mkrel 1
 
-Summary: A test program for filesystem performance.
+Summary: A test program for filesystem performance
 Name: %{name}
 Version: %{version}
 Release: %{release}
