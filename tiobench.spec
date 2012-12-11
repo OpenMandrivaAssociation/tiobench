@@ -40,3 +40,28 @@ rm -rf $RPM_BUILD_ROOT
 %{_bindir}/tiosum.pl
 %doc README BUGS TODO ChangeLog
 
+
+
+%changelog
+* Wed Sep 09 2009 Thierry Vignaud <tvignaud@mandriva.com> 0.3.3-5mdv2010.0
++ Revision: 434400
+- rebuild
+
+* Sun Aug 03 2008 Thierry Vignaud <tvignaud@mandriva.com> 0.3.3-4mdv2009.0
++ Revision: 261562
+- rebuild
+- rebuild
+- fix summary-ended-with-dot
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+* Mon Dec 17 2007 Thierry Vignaud <tvignaud@mandriva.com> 0.3.3-1mdv2008.1
++ Revision: 128470
+- kill re-definition of %%buildroot on Pixel's request
+- use %%mkrel
+- import tiobench
+
+
+* Tue Apr 27 2004 Juan Quintela <quintela@mandrakesoft.com> 0.3.3-1mdk
+- 1st Mandrake version.
